@@ -3,10 +3,6 @@ import streamlit as st
 import pandas as pd
 from ScrapeShopee import ScrapeData 
 
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 
 st.set_page_config(page_title = 'Shopee Web Scraping')
 # Title
